@@ -1,4 +1,4 @@
-# FIFA 2018 Spoel Simulation
+# FIFA 2018 Spiel Simulation
 
 ## Voraussetzungen
 
