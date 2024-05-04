@@ -10,7 +10,7 @@
 
 1. Öffnen des Ordner mit dem Projekt im Terminal:
    ```
-   cd fifa
+   cd fifa-main
    ```
 3. Führen folgenden befehl aus, um die Simulation zu starten:
    ```
