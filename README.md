@@ -18,3 +18,7 @@
    ```
 4. Falls sie wetten und verlieren, kommt etwas lustiges hehehe
 5. Öffnen sie die Datei `ergebnisse.csv` damit sie die Ergebnisse der vorherigen Simulationen sehen können
+
+## So müsste es aussehen:
+
+![Ausführungs Demo](./demo/demo.mp4)
