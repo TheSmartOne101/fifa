@@ -110,7 +110,7 @@ def main():
             print("Glückwunsch, Sie haben gewonnen!")
             webbrowser.open("https://t3.ftcdn.net/jpg/02/82/23/94/360_F_282239447_9JUkxLmUPzBvOrEAXVEx2GpNd1EkPOSO.jpg")
         else:
-            print("Tut mir leid, Sie haben verloren.")
+            print("Sie haben verloren.")
             webbrowser.open("https://i1.sndcdn.com/artworks-BBMnwmO6ymZ90v3V-zYlw4g-t500x500.jpg")
 
 if __name__ == "__main__":
