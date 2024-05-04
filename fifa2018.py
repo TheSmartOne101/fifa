@@ -1,4 +1,3 @@
-# Importieren der benötigten Module
 import csv
 import random
 import time
@@ -109,11 +108,10 @@ def main():
     if chosen_team:
         if (team1_score > team2_score and chosen_team == team1) or (team1_score < team2_score and chosen_team == team2):
             print("Glückwunsch, Sie haben gewonnen!")
-            webbrowser.open("https://imgs.search.brave.com/oLBoz-5D1T17J2gQxKegf4LWOStHkupvD5nYOLtlDdY/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2RmL2E0/LzVkL2RmYTQ1ZDc1/NjRlZGFkMmQyMWY2/ZWU3OWJhZWM5Y2I5/LmpwZw")
+            webbrowser.open("https://t3.ftcdn.net/jpg/02/82/23/94/360_F_282239447_9JUkxLmUPzBvOrEAXVEx2GpNd1EkPOSO.jpg")
         else:
             print("Tut mir leid, Sie haben verloren.")
-            webbrowser.open("https://youtu.be/xvFZjo5PgG0")
+            webbrowser.open("https://i1.sndcdn.com/artworks-BBMnwmO6ymZ90v3V-zYlw4g-t500x500.jpg")
 
 if __name__ == "__main__":
     main()
-
