@@ -8,8 +8,8 @@
 
 ## Ausführung
 
-1. Öffnen sie den Ordner mit dem Projekt im Terminal
-2. Führen sie den folgenden befehl aus, um die Simulation zu starten:
+1. Öffnen des Ordner mit dem Projekt im Terminal
+2. Führen folgenden befehl aus, um die Simulation zu starten:
  `python3 fifa2018.py`
 3. Falls sie wetten und verlieren, kommt etwas lustiges hehehe
 4. Öffnen sie die Datei `ergebnisse.csv` damit sie die Ergebnisse der vorherigen Simulationen sehen können
