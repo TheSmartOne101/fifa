@@ -13,7 +13,7 @@
    cd fifa-main
    ```
 3. Folgenden befehl ausführen, um die Simulation zu starten:
-   ```python
+   ```bash
    python3 fifa2018.py
    ```
 4. Falls sie wetten und verlieren, kommt etwas lustiges hehehe
