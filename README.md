@@ -21,4 +21,4 @@
 
 ## So müsste es aussehen:
 
-![Ausführungs Demo](./demo/demo.mp4)
+![Ausführungs Demo](./demo.gif)
