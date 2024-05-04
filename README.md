@@ -17,8 +17,11 @@
    ```bash
    python3 fifa2018.py
    ```
-4. Falls sie wetten und verlieren, kommt etwas lustiges hehehe
-5. Öffnen sie die Datei `ergebnisse.csv` damit sie die Ergebnisse der vorherigen Simulationen sehen können
+>[!WARNING]
+>4. Falls sie wetten und verlieren, kommt etwas lustiges hehehe
+
+>[!TIP]
+>5. Öffnen sie die Datei `ergebnisse.csv` damit sie die Ergebnisse der vorherigen Simulationen sehen können
 
 ## So müsste es aussehen:
 
