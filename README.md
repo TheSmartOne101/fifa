@@ -13,15 +13,15 @@
    ```bash
    cd fifa-main
    ```
->3. Folgenden befehl ausführen, um die Simulation zu starten:
+>2. Folgenden befehl ausführen, um die Simulation zu starten:
    ```bash
    python3 fifa2018.py
    ```
 >[!CAUTION]
->4. Falls sie wetten und verlieren, kommt etwas lustiges hehehe
+>3. Falls sie wetten und verlieren, kommt etwas lustiges hehehe
 
 >[!TIP]
->5. Öffnen sie die Datei `ergebnisse.csv` damit sie die Ergebnisse der vorherigen Simulationen sehen können
+>4. Öffnen sie die Datei `ergebnisse.csv` damit sie die Ergebnisse der vorherigen Simulationen sehen können
 
 ## So müsste es aussehen:
 
