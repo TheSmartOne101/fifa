@@ -1,7 +1,7 @@
 # FIFA 2018 Spiel Simulation
 
 ## Voraussetzungen
->[!Tip]
+>[!IMPORTANT]
 >[Python 3.11](https://www.python.org/downloads/release/python-3110/) muss installiert sein
 
 >[!Note]
