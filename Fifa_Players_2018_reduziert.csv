@@ -1,51 +1,38 @@
 name,full_name,birth_date,age,height_cm,weight_kgs,positions,nationality,overall_rating,potential,value_euro,wage_euro
-L. Messi,Lionel Andrés Messi Cuccittini,6/24/1987,31,170.18,72.1,CF,RW,ST,Argentina,94,94,110500000,565000
-C. Eriksen,Christian Dannemann Eriksen,2/14/1992,27,154.94,76.2,CAM,RM,CM,Denmark,88,89,69500000,205000
-P. Pogba,Paul Pogba,3/15/1993,25,190.5,83.9,CM,CAM,France,88,91,73000000,255000
-L. Insigne,Lorenzo Insigne,6/4/1991,27,162.56,59,LW,ST,Italy,88,88,62000000,165000
-K. Koulibaly,Kalidou Koulibaly,6/20/1991,27,187.96,88.9,CB,Senegal,88,91,60000000,135000
-V. van Dijk,Virgil van Dijk,7/8/1991,27,193.04,92.1,CB,Netherlands,88,90,59500000,215000
-K. Mbappé,Kylian Mbappé,12/20/1998,20,152.4,73,RW,ST,RM,France,88,95,81000000,100000
-S. Agüero,Sergio Leonel Agüero del Castillo,6/2/1988,30,172.72,69.9,ST,Argentina,89,89,64500000,300000
-M. Neuer,Manuel Neuer,3/27/1986,32,193.04,92.1,GK,Germany,89,89,38000000,130000
-E. Cavani,Edinson Roberto Cavani Gómez,2/14/1987,32,185.42,77.1,ST,Uruguay,89,89,60000000,200000
-Sergio Busquets,Sergio Busquets i Burgos,7/16/1988,30,187.96,76.2,CDM,CM,Spain,89,89,51500000,315000
-T. Courtois,Thibaut Courtois,5/11/1992,26,198.12,96.2,GK,Belgium,89,90,53500000,240000
-M. ter Stegen,Marc-André ter Stegen,4/30/1992,26,187.96,84.8,GK,Germany,89,92,58000000,240000
-A. Griezmann,Antoine Griezmann,3/21/1991,27,175.26,73,CF,ST,France,89,90,78000000,145000
-M. Salah,Mohamed Salah Ghaly,6/15/1992,26,175.26,71.2,RW,ST,Egypt,89,90,78500000,265000
-P. Dybala,Paulo Bruno Exequiel Dybala,11/15/1993,25,152.4,74.8,CAM,RW,Argentina,89,94,89000000,205000
-M. Škriniar,Milan Škriniar,2/11/1995,24,187.96,79.8,CB,Slovakia,86,93,53500000,89000
-Fernandinho,Fernando Luiz Rosa,5/4/1985,33,152.4,67.1,CDM,Brazil,87,87,20500000,200000
-G. Higuaín,Gonzalo Gerardo Higuaín,12/10/1987,31,185.42,88.9,ST,Argentina,87,87,48500000,205000
-I. Rakitić,Ivan Rakitić,3/10/1988,30,182.88,78,CM,CDM,Croatia,87,87,46500000,260000
-J. Vertonghen,Jan Vertonghen,4/24/1987,31,187.96,86.2,CB,Belgium,87,87,34000000,155000
-D. Mertens,Dries Mertens,5/6/1987,31,170.18,60.8,CF,ST,Belgium,87,87,45000000,135000
-Marcelo,Marcelo Vieira da Silva Júnior,5/12/1988,30,175.26,79.8,LB,Brazil,87,87,36500000,240000
-T. Alderweireld,Toby Alderweireld,3/2/1989,30,185.42,81.2,CB,Belgium,87,88,44000000,165000
-Jordi Alba,Jordi Alba Ramos,3/21/1989,29,170.18,68,LB,Spain,87,87,38000000,250000
-Thiago,Thiago Alcântara do Nascimento,4/11/1991,27,175.26,69.9,CM,CAM,CDM,Spain,87,87,51500000,140000
-C. Immobile,Ciro Immobile,2/20/1990,29,185.42,84.8,ST,Italy,87,87,52000000,115000
+L. Messi,Lionel Messi,6/24/1987,32,170.18,72.1,RW,Argentina,94,94,95500000,565000
+Cristiano Ronaldo,Cristiano Ronaldo dos Santos Aveiro,2/5/1985,34,187.96,83.9,ST,Portugal,93,93,58500000,405000
+Neymar Jr,Neymar da Silva Santos Junior,2/5/1992,27,175.26,68.9,LW,Brazil,92,92,105500000,290000
+De Gea,David De Gea Quintana,11/7/1990,28,193.04,76.2,GK,Spain,91,93,72000000,260000
+K. De Bruyne,Kevin De Bruyne,6/28/1991,28,180.34,70.8,CM,Belgium,91,91,102000000,355000
+E. Hazard,Eden Hazard,1/7/1991,28,172.72,74.8,LW,Belgium,91,91,93000000,340000
+L. Modrić,Luka Modrić,9/9/1985,33,172.72,66.2,CM,Croatia,90,90,67000000,420000
+V. van Dijk,Virgil van Dijk,7/8/1991,27,193.04,92.1,CB,Netherlands,90,91,78000000,200000
+M. Salah,Mohamed Salah,6/15/1992,27,175.26,71,RW,Egypt,90,90,80500000,240000
+K. Mbappé,Kylian Mbappé,12/20/1998,20,182.88,73,ST,France,89,95,93500000,155000
+L. Suárez,Luis Suárez,1/24/1987,32,182.88,86,ST,Uruguay,89,89,53000000,355000
+Sergio Ramos,Sergio Ramos García,3/30/1986,33,182.88,82.1,CB,Spain,89,89,31500000,380000
+A. Griezmann,Antoine Griezmann,3/21/1991,28,175.26,73,ST,France,89,90,78000000,370000
+Sergio Agüero,Sergio Leonel Agüero del Castillo,6/2/1988,31,172.72,70.5,ST,Argentina,89,89,64500000,325000
 K. Navas,Keylor Navas,12/15/1986,32,185.42,80.3,GK,Costa Rica,87,87,30500000,195000
-J. Kimmich,Joshua Kimmich,2/8/1995,24,175.26,70,CDM,RB,Germany,86,89,46000000,110000
-H. Son,Heung Min Son,7/8/1992,26,183,78.9,LM,ST,Korea Republic,86,87,56000000,150000
-Azpilicueta,César Azpilicueta,8/28/1989,29,177.8,78.9,CB,RB,Spain,86,86,32500000,175000
+J. Kimmich,Joshua Kimmich,2/8/1995,24,175.26,70,CDM,Germany,86,89,46000000,110000
+H. Son,Heung Min Son,7/8/1992,26,183,78.9,LM,Korea Republic,86,87,56000000,150000
+Azpilicueta,César Azpilicueta,8/28/1989,29,177.8,78.9,CB,Spain,86,86,32500000,175000
 Ederson,Ederson Santana de Moraes,8/17/1993,25,188,86,GK,Brazil,86,90,58000000,125000
 K. Manolas,Kostas Manolas,6/14/1991,27,187.96,80.7,CB,Greece,86,87,40500000,125000
 C. Lenglet,Clément Lenglet,6/17/1995,23,185.42,81.2,CB,France,85,89,34000000,109000
-Bernardo Silva,Bernardo Mota Veiga de Carvalho e Silva,8/10/1994,24,172.72,64,CM,RW,Portugal,84,88,59500000,180000
+Bernardo Silva,Bernardo Mota Veiga de Carvalho e Silva,8/10/1994,24,172.72,64,CM,Portugal,84,88,59500000,180000
 David Silva,David Josué Jiménez Silva,1/8/1986,33,170.18,67.1,CAM,Spain,88,88,6000000,165000
 J. Rodríguez,James David Rodríguez Rubio,7/12/1991,27,180.34,75,CAM,Colombia,88,89,59000000,215000
-L. Sané,Leroy Sané,1/11/1996,23,182.88,75,LW,Germany,86,92,61000000,195000
-S. Mané,Sadio Mané,4/10/1992,26,175.26,69.9,LW,Senegal,88,88,73500000,250000
+L. Sané,Leroy Sané,1/11/1996,23,182.88,75,LM,Germany,86,92,61000000,195000
+S. Mané,Sadio Mané,4/10/1992,26,175.26,69.9,LM,Senegal,88,88,73500000,250000
 R. Sterling,Raheem Shaquille Sterling,12/8/1994,24,170.18,69.9,RW,England,88,90,67500000,255000
 S. Umtiti,Samuel Umtiti,11/14/1993,25,182.88,75.7,CB,France,87,90,57000000,205000
 M. Hummels,Mats Julian Hummels,12/16/1988,30,191.01,92.1,CB,Germany,89,89,46000000,150000
 R. Lukaku,Romelu Lukaku,5/13/1993,25,190.5,94.8,ST,Belgium,87,89,62500000,230000
 Piqué,Gerard Piqué Bernabéu,2/2/1987,32,193.04,85.3,CB,Spain,87,87,34000000,240000
 Paulinho,Paulinho Bezerra Maciel Júnior,7/25/1988,30,185.42,77.1,CM,Brazil,86,86,27500000,235000
-Iniesta,Andrés Iniesta Luján,5/11/1984,34,170.18,68,CAM,CM,Spain,87,87,21500000,210000
+Iniesta,Andrés Iniesta Luján,5/11/1984,34,170.18,68,CAM,Spain,87,87,21500000,210000
 J. Oblak,Jan Oblak,1/7/1993,26,188,87.1,GK,Slovenia,90,93,68000000,94000
 Thiago Silva,Thiago Emiliano da Silva,9/22/1984,34,187.96,82.1,CB,Brazil,88,88,24000000,165000
 Miranda,João Miranda de Souza Filho,9/7/1984,34,185.42,78.9,CB,Brazil,86,86,15500000,180000
-Coutinho,Philippe Coutinho Correia,6/12/1992,26,172.72,68,LM,CAM,Brazil,88,89,69500000,340000
+Coutinho,Philippe Coutinho Correia,6/12/1992,26,172.72,68,LM,Brazil,88,89,69500000,340000
