@@ -9,11 +9,11 @@
 
 ## Ausführung
 
-1. Öffnen des Ordner mit dem Projekt im Terminal:
+>1. Öffnen des Ordner mit dem Projekt im Terminal:
    ```bash
    cd fifa-main
    ```
-3. Folgenden befehl ausführen, um die Simulation zu starten:
+>3. Folgenden befehl ausführen, um die Simulation zu starten:
    ```bash
    python3 fifa2018.py
    ```
