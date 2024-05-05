@@ -25,4 +25,4 @@
 
 ## So müsste es aussehen:
 
-![Ausführungs Demo](./demo.gif)
+![Ausführungs Demo](./demo.gif "Einfach Nachmachen und dann wirds :)")
