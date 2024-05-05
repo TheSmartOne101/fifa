@@ -2,7 +2,7 @@
 
 ## Voraussetzungen
 >[!IMPORTANT]
->[Python 3](https://www.python.org/downloads/) muss installiert sein
+>[Python 3](https://www.python.org/downloads/) muss installiert sein. <br>Ich würde den neuesten stable release runterladen
 
 >[!Note]
 >Ich konnte den code nicht mit tigerjython kompatibel machen, leider kommen da zu viele errors, die ich nicht so ganz verstehe und nicht weiß wie man sie behebt :(
