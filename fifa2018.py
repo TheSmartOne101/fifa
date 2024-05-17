@@ -36,14 +36,22 @@ def distribute_players(players, team_size=10):
     teams = [players[:team_size], players[team_size:team_size*2]]
     return teams
 
-# Funktion zur Simulation eines Spiels mit zufälliger Punktevergabe
-def simulate_match():
+# Funktion zur Berechnung der Durchschnittsbewertung eines Teams
+def calculate_team_rating(team):
+    total_rating = sum(player.overall_rating for player in team)
+    return total_rating / len(team)
+
+# Funktion zur Simulation eines Spiels basierend auf den Teamwertungen
+def simulate_match(team1, team2):
     team1_score = 0
     team2_score = 0
 
+    team1_rating = calculate_team_rating(team1)
+    team2_rating = calculate_team_rating(team2)
+
     for _ in range(9):
-        winner = random.choice([1, 2])  # Zufälliger Gewinner für dieses Spiel
-        if winner == 1:
+        # Adjust the probabilities based on team ratings
+        if random.uniform(0, team1_rating + team2_rating) < team1_rating:
             team1_score += 1
         else:
             team2_score += 1
@@ -107,7 +115,7 @@ def main():
         chosen_team = None
 
     print("\nSpielstand: 0 - 0")
-    team1_score, team2_score = simulate_match()
+    team1_score, team2_score = simulate_match(team1, team2)
     print(f"\nEndstand: Team 1, {team1_score} - {team2_score}, Team 2")
     save_result_to_db(team1, team2, team1_score, team2_score)
 
@@ -117,7 +125,7 @@ def main():
             print("Glückwunsch, Sie haben gewonnen!")
             webbrowser.open("https://t3.ftcdn.net/jpg/02/82/23/94/360_F_282239447_9JUkxLmUPzBvOrEAXVEx2GpNd1EkPOSO.jpg")
         else:
-            print("Ups, sie haben verloren.")
+            print("Sie haben verloren.")
             webbrowser.open("https://i1.sndcdn.com/artworks-BBMnwmO6ymZ90v3V-zYlw4g-t500x500.jpg")
 
 if __name__ == "__main__":
