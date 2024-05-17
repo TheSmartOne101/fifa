@@ -21,7 +21,7 @@
 >3. Falls sie wetten und verlieren, kommt etwas lustiges hehehe
 
 >[!TIP]
->4. Öffnen sie die Datei `ergebnisse.csv` damit sie die Ergebnisse der vorherigen Simulationen sehen können
+>4. Öffnen sie die Datei `ergebnisse.db` mit dem [DB Browser für SQLight](https://sqlitebrowser.org/) damit sie die Ergebnisse der vorherigen Simulationen sehen können
 
 ## So müsste es aussehen:
 
