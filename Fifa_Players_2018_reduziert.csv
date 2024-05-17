@@ -1,6 +1,6 @@
 name,full_name,birth_date,age,height_cm,weight_kgs,positions,nationality,overall_rating,potential,value_euro,wage_euro
 L. Messi,Lionel Andrés Messi Cuccittini,6/24/1987,31,170.18,72.1,CF,RW,ST,Argentina,94,94,110500000,565000
-C. Eriksen,Christian  Dannemann Eriksen,2/14/1992,27,154.94,76.2,CAM,RM,CM,Denmark,88,89,69500000,205000
+C. Eriksen,Christian Dannemann Eriksen,2/14/1992,27,154.94,76.2,CAM,RM,CM,Denmark,88,89,69500000,205000
 P. Pogba,Paul Pogba,3/15/1993,25,190.5,83.9,CM,CAM,France,88,91,73000000,255000
 L. Insigne,Lorenzo Insigne,6/4/1991,27,162.56,59,LW,ST,Italy,88,88,62000000,165000
 K. Koulibaly,Kalidou Koulibaly,6/20/1991,27,187.96,88.9,CB,Senegal,88,91,60000000,135000
@@ -13,7 +13,7 @@ Sergio Busquets,Sergio Busquets i Burgos,7/16/1988,30,187.96,76.2,CDM,CM,Spain,8
 T. Courtois,Thibaut Courtois,5/11/1992,26,198.12,96.2,GK,Belgium,89,90,53500000,240000
 M. ter Stegen,Marc-André ter Stegen,4/30/1992,26,187.96,84.8,GK,Germany,89,92,58000000,240000
 A. Griezmann,Antoine Griezmann,3/21/1991,27,175.26,73,CF,ST,France,89,90,78000000,145000
-M. Salah,Mohamed  Salah Ghaly,6/15/1992,26,175.26,71.2,RW,ST,Egypt,89,90,78500000,265000
+M. Salah,Mohamed Salah Ghaly,6/15/1992,26,175.26,71.2,RW,ST,Egypt,89,90,78500000,265000
 P. Dybala,Paulo Bruno Exequiel Dybala,11/15/1993,25,152.4,74.8,CAM,RW,Argentina,89,94,89000000,205000
 M. Škriniar,Milan Škriniar,2/11/1995,24,187.96,79.8,CB,Slovakia,86,93,53500000,89000
 Fernandinho,Fernando Luiz Rosa,5/4/1985,33,152.4,67.1,CDM,Brazil,87,87,20500000,200000
@@ -30,7 +30,7 @@ K. Navas,Keylor Navas,12/15/1986,32,185.42,79.8,GK,Costa Rica,87,87,30500000,195
 Isco,Francisco Román Alarcón Suárez,4/21/1992,26,175.26,78.9,CAM,CM,LW,Spain,87,90,62500000,260000
 J. Rodríguez,James David Rodríguez Rubio,7/12/1991,27,154.94,74.8,CAM,CM,Colombia,88,88,69500000,315000
 Marco Reus,Marco Reus,5/31/1989,29,182.88,75,LM,CAM,Germany,88,88,58500000,150000
-Piqué,Gerard Piqué Bernabeu,2/2/1987,32,194.56,85.3,CB,Spain,88,88,38000000,240000
+Piqué,Gerard Piqué Bernabeu,2/2/1987,32,194.56,85.3,CB,Spain,88,88,58500500,140000
 L. Modrić,Luka Modrić,9/9/1985,33,172.72,66.2,CM,CAM,Croatia,88,88,31500000,340000
 S. Umtiti,Samuel Umtiti,11/14/1993,25,182.88,75.8,CB,France,87,92,54500000,205000
 K. De Bruyne,Kevin De Bruyne,6/28/1991,27,181.61,68,CM,CAM,RM,Belgium,88,91,76500000,370000
