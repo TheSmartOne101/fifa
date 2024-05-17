@@ -2,7 +2,7 @@ import csv
 import random
 import time
 import webbrowser
-from collections import defaultdict
+import sqlite3
 
 # Definieren der Spielerklasse
 class Spieler:
@@ -41,7 +41,7 @@ def simulate_match():
     team1_score = 0
     team2_score = 0
 
-    for _ in range(3):
+    for _ in range(9):
         winner = random.choice([1, 2])  # Zufälliger Gewinner für dieses Spiel
         if winner == 1:
             team1_score += 1
@@ -49,31 +49,48 @@ def simulate_match():
             team2_score += 1
 
         print(f"Spielstand: {team1_score} - {team2_score}")
-        time.sleep(2)  # 2 Sekunden Pause
+        time.sleep(0.5)
 
     return team1_score, team2_score
 
-# Funktion zum Speichern des Spielergebnisses in einer CSV-Datei
-def save_result(team1, team2, team1_score, team2_score):
-    result = []
+# Funktion zum Speichern des Spielergebnisses in einer SQLite-Datenbank
+def save_result_to_db(team1, team2, team1_score, team2_score):
+    conn = sqlite3.connect('ergebnisse.db')
+    cursor = conn.cursor()
+
+    cursor.execute('''CREATE TABLE IF NOT EXISTS results
+                      (id INTEGER PRIMARY KEY, winner TEXT, loser TEXT, team1_score INTEGER, team2_score INTEGER)''')
+
     if team1_score > team2_score:
         winner, loser = team1, team2
     else:
         winner, loser = team2, team1
 
-    result.append(','.join([player.name for player in winner]))
-    result.append(','.join([player.name for player in loser]))
+    winner_names = ','.join([player.name for player in winner])
+    loser_names = ','.join([player.name for player in loser])
 
-    with open('ergebnisse.csv', 'a', newline='') as csvfile:
-        writer = csv.writer(csvfile)
-        writer.writerow(result)
+    cursor.execute('INSERT INTO results (winner, loser, team1_score, team2_score) VALUES (?, ?, ?, ?)',
+                   (winner_names, loser_names, team1_score, team2_score))
+
+    conn.commit()
+    conn.close()
 
 # Hauptfunktion zur Ausführung des Programms
 def main():
     players = read_players('Fifa_Players_2018_reduziert.csv')
     team1, team2 = distribute_players(players)
     print("Willkommen zum Fußballspiel-Simulator!")
-    time.sleep(2)
+    time.sleep(0.5)
+
+    print("\nTeam 1:")
+    for player in team1:
+        print(f"  {player.name} ({', '.join(player.positions)})")
+    time.sleep(0.5)
+
+    print("\nTeam 2:")
+    for player in team2:
+        print(f"  {player.name} ({', '.join(player.positions)})")
+    time.sleep(0.5)
 
     # Wetten-Option
     bet = input("Möchten Sie auf ein Team wetten? (j/n) ")
@@ -89,20 +106,10 @@ def main():
     else:
         chosen_team = None
 
-    print("\nTeam 1:")
-    for player in team1:
-        print(f"  {player.name} ({', '.join(player.positions)})")
-    time.sleep(2)
-
-    print("\nTeam 2:")
-    for player in team2:
-        print(f"  {player.name} ({', '.join(player.positions)})")
-    time.sleep(2)
-
     print("\nSpielstand: 0 - 0")
     team1_score, team2_score = simulate_match()
     print(f"\nEndstand: Team 1, {team1_score} - {team2_score}, Team 2")
-    save_result(team1, team2, team1_score, team2_score)
+    save_result_to_db(team1, team2, team1_score, team2_score)
 
     # Wetten-Ergebnis
     if chosen_team:
